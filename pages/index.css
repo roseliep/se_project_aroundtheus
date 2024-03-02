@@ -37,9 +37,8 @@
 }
 
 .profile__title {
-  font-size: 42px;
   line-height: 48px;
-  font-weight: 900;
+  font-weight: 500;
   grid-area: title;
   margin: 0;
 }
@@ -59,11 +58,21 @@
   grid-area: button;
 }
 
+.profile__edit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .profile__add-button {
   background: transparent url(../images/addbutton.svg) center no-repeat;
   width: 150px;
   height: 50px;
   margin-left: auto;
+}
+
+.profile__add-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .profile__image {
@@ -73,4 +82,72 @@
   object-fit: cover;
   background-position: center;
   margin-right: 24px;
+}
+
+.cards {
+  /* fonts */
+  margin-top: 40px;
+}
+
+.card__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card__like-button {
+  background: transparent url(../images/like-inactive.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: none;
+}
+
+.card__like-button:hover {
+  background: transparent url(../images/like-hover.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: none;
+}
+
+.footer__copyright {
+  color: #545454;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 67px;
+  margin-left: 250px;
+  margin-bottom: 60px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }

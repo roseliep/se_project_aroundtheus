@@ -4,7 +4,7 @@
 
 - Introduction
 - Project Features
-- [Link to Project]
+- Link to Project - https://roseliep.github.io/se_project_aroundtheus/
 - Future Plans
 
 ### Introduction
@@ -24,6 +24,8 @@ This is a responsive webpage of a user's social media profile that can be viewed
 - Flat BEM file structure
 
 ### Link to Video and Project
+
+https://youtu.be/pWLavysPW9A
 
 ### Future Plans
 

@@ -11,6 +11,7 @@
 }
 
 .profile__title {
+  font-size: 42px;
   line-height: 48px;
   font-weight: 500;
   grid-area: title;
@@ -37,10 +38,11 @@
   height: 24px;
   width: 24px;
   grid-area: button;
+  border: 1px solid white;
 }
 
 .profile__edit-button:hover {
-  opacity: 0.7;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -48,6 +50,7 @@
   background: transparent url(../images/addbutton.svg) center no-repeat;
   width: 150px;
   height: 50px;
+  border: 2px solid white;
   margin-left: auto;
 }
 
@@ -80,7 +83,6 @@
   .profile__title {
     max-width: 196px;
     flex-shrink: 0;
-    color: #fff;
     text-align: center;
     font-size: 22px;
     line-height: normal;
@@ -108,13 +110,11 @@
 
   .profile__title {
     padding-top: 20px;
-    max-width: 196px;
     line-height: 1.2104;
   }
 
   .profile__description {
     max-width: 220px;
-    text-align: center;
     font-size: 14px;
     margin-top: 0;
   }

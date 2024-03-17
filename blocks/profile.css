@@ -41,6 +41,7 @@
   border: 1px solid white;
   margin-right: 10px;
   margin-left: 10px;
+  align-self: center;
 }
 
 .profile__edit-button:hover {
@@ -106,11 +107,22 @@
 }
 
 @media screen and (max-width: 320px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile__image {
+    margin: 0;
+  }
+
   .profile__info {
+    grid-template-rows: none;
     justify-content: space-evenly;
   }
 
   .profile__title {
+    font-size: 22px;
     padding-top: 20px;
     line-height: 1.2104;
   }
@@ -131,5 +143,6 @@
     width: 18px;
     height: 18px;
     margin-top: 24px;
+    margin-left: 0;
   }
 }

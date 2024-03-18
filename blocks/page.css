@@ -2,19 +2,28 @@
   background-color: black;
   color: #fff;
   font-family: Inter, Arial, sans-serif;
+  padding: 0px;
 }
 
 .page__section {
-  max-width: 880px;
-  width: 100%;
   position: relative;
-  margin: 0 auto;
 }
 
 .page__content {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    margin: auto 0;
+  }
+  .page__section {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1100px) {

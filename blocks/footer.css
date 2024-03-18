@@ -5,17 +5,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 67px;
-  margin-bottom: 60px;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 67px;
+  padding-bottom: 60px;
+  margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 16.94px;
-    margin-top: 48px;
-    margin-bottom: 36px;
+    padding-top: 48px;
+    padding-bottom: 36px;
   }
 }

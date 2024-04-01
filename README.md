@@ -22,6 +22,7 @@ This is a responsive webpage of a user's social media profile that can be viewed
 - Grid
 - Media Queries
 - Flat BEM file structure
+- Arrays
 
 ### Link to Video and Project
 

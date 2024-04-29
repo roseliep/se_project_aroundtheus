@@ -26,9 +26,14 @@ const initialCards = [
 ];
 
 /* Elements */
-// const profileEditButton = document.querySelector("#profile-edit-button");
-// const profileEditModal = document.querySelector("#profile-edit-modal");
+const profileEditButton = document.querySelector("#profile-edit-button");
+const profileEditModal = document.querySelector("#profile-edit-modal");
+const profileEditCloseModalButton = document.querySelector("#modal-close");
 
-// profileEditButton.addEventListener("click", () => {
-//   profileEditModal.classList.add("modal_opened");
-// });
+profileEditButton.addEventListener("click", () => {
+  profileEditModal.classList.add("modal_opened");
+});
+
+profileEditCloseModalButton.addEventListener("click", () => {
+  profileEditModal.classList.remove("modal_opened");
+});

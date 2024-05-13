@@ -47,20 +47,20 @@
       </footer>
     </div>
 
-    <div id="profile-edit-modal" class="modal modal_opened">
+    <div id="profile-edit-modal" class="modal">
       <div class="modal__container">
         <button id="modal-close" class="modal__close" type="button"></button>
         <p class="modal__heading">Edit profile</p>
-        <form class="modal__form">
+        <form class="modal__form" id="modal__form">
           <input
-            class="modal__input-name"
+            class="modal__input"
             placeholder="Name"
             id="profile-title-input"
             name="title"
             type="text"
           />
           <input
-            class="modal__input-description"
+            class="modal__input"
             placeholder="Description"
             id="profile-description-input"
             name="description"

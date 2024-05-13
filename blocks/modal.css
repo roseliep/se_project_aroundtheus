@@ -20,14 +20,12 @@
 }
 
 .modal__container {
-  padding: 36px;
   background: #fff;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
   opacity: 1;
   max-width: 430px;
-  height: 330px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -39,10 +37,11 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
-  line-height: normal;
+  line-height: 29.05px;
   margin-left: 36px;
-  margin-top: 18px;
-  margin-bottom: 75px;
+  margin-right: 64px;
+  margin-bottom: 54px;
+  margin-top: 34px;
 }
 
 .modal__form {
@@ -50,24 +49,31 @@
   margin-right: 36px;
 }
 
-.modal__input-name {
+.modal__input {
   margin-bottom: 30px;
 }
 
-.modal__input-name,
 .modal__input-title,
-.modal__input-description {
+.modal__input {
   border-top: none;
   border-right: none;
   border-left: none;
   background: none;
   color: black;
   border-color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 13px;
   width: 358px;
   height: 27.26px;
   padding-left: 0px;
   padding-right: 0px;
+  margin-bottom: 0;
 }
+
+.modal__input-title,
+.modal__input:first-child {
+  margin-bottom: 27.26px;
+}
+
 .modal__button {
   background-color: black;
   color: white;
@@ -128,8 +134,8 @@
     font-size: 14px;
     width: 238px;
   }
-  .modal__input-name,
-  .modal__input-description {
+
+  .modal__input {
     width: 238px;
   }
 }
